@@ -17,6 +17,7 @@ description = "description"
 ```sh
 # sudo ./scripts/download_model_binary.py models/bvlc_reference_caffenet
 ```
+
 # 二、准备数据
 > 将训练数据放在一个文件夹内。比如我在当前用户根目录下创建了一个data文件夹，专门用来存放数据，因此我的训练图片路径为：/home/xxx/data/re/train
 打开浏览器，运行digits，新建一个classification dataset,设置如下图：

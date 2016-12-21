@@ -32,7 +32,7 @@ date = "2016-12-21T09:52:09+08:00"
 -	unzip opencv-2.4.13.zip
 -	cd opencv-2.4.13
 - 	#（可选，若出现list_filterout错误）修改samples/gpu/CMakeLists.txt 文件的106、109、110、111、112五行代码如下：
-```python
+```cpp
 	 if(NOT HAVE_OPENGL)
 	 #   list_filterout(install_list ".*opengl.cpp")
 	  endif()

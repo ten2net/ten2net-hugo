@@ -112,7 +112,7 @@ layer {
 
 - 如果使用新版digits，除了上面数据层和最后一个全连接层的改动外，还有以下3处：
 
-** （1）修改accuracy层，删除原来phase: TEST修改为stage: "val"，下图的-表示删除，+表示增加，后面的均是这样表示。
+* （1）修改accuracy层，删除原来phase: TEST修改为stage: "val"，下图的-表示删除，+表示增加，后面的均是这样表示。
 
 ```json
 layer {
@@ -127,7 +127,7 @@ name: "accuracy"
 +    include { stage: "val" }
 }
 ```
-** （2）修改loss层，增加exclude { stage: "deploy" }，表示loss只在训练和验证中计算，测试时不计算。
+* （2）修改loss层，增加exclude { stage: "deploy" }，表示loss只在训练和验证中计算，测试时不计算。
 
 ```json
 layer {
@@ -140,7 +140,7 @@ layer {
 +}
 ```
 
-** （3）增加softmax层，该层不在训练和验证中计算，只在测试时计算。
+* （3）增加softmax层，该层不在训练和验证中计算，只在测试时计算。
 
 ```json
 + layer {

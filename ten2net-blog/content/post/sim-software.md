@@ -1,9 +1,9 @@
 +++
 date = "2016-12-22T12:12:19+08:00"
 title = "计算机三维仿真常用软件"
-tags = ["视景仿真","三维"，"VR-FORCE","Terra Vista"，"Vega Prime","Creator"]
+tags = ["视景仿真","三维","VR-FORCE","Terra Vista","Vega Prime","Creator"]
 topics = ["视景仿真","三维"]
-keywords = ["视景仿真","三维"，"VR-FORCE","Terra Vista"，"Vega Prime","Creator"]
+keywords = ["视景仿真","三维","VR-FORCE","Terra Vista","Vega Prime","Creator"]
 author = "ten2net"
 draft = false
 type = "post"

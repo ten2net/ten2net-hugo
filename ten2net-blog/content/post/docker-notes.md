@@ -91,7 +91,8 @@ docker-machine create --virtualbox-no-vtx-check --engine-registry-mirror=https:/
 ```
 docker run -it -d shykes/pybuilder bin/bash
 ```
-# 6 Docker Exec 命令可以执行正在运行的Docker容器中的Shell命令
+
+> Docker Exec 命令可以执行正在运行的Docker容器中的Shell命令
 
 - 如果希望能够附着到一个已经存在的容器中，则利用exec命令：
 

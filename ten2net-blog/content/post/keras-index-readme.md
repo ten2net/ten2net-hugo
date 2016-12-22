@@ -1,10 +1,10 @@
 +++
 date = "2016-12-22T11:15:53+08:00"
-title = "Keras笔记"
+title = "深度学习库Keras快速入门笔记"
 keywords = ["Keras","Deep Learning"]
 tags = ["Keras","Deep Learning"]
 topics = ["Keras","Deep Learning"]
-description = "这是我个人制作的一个Keras快速入门的立即。"
+description = "这是我个人制作的一个Keras快速入门的笔记。"
 author = "wangf"
 draft = false
 type = "post"

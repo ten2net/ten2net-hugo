@@ -1,8 +1,8 @@
 # hostname (and path) to the root eg. http://spf13.com/
-baseurl = "http://192.168.200.24:1313"
+baseurl = "https://ten2net.github.io"
 
 # Site title
-title = "机器学习"
+title = "学习之心"
 
 # Copyright
 copyright = "(c) 2017 ten2net 西安长城数字软件有限公司."

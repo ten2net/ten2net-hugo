@@ -6,7 +6,7 @@ author = "wangf"
 date = "2016-12-22T13:41:05+08:00"
 keywords = ["DNS","Speed"]
 description = "description"
-draft = true
+draft = false
 type = "post"
 
 +++

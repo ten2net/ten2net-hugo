@@ -2,9 +2,9 @@
 title = "Opencv在Ubuntu上的安装过程"
 draft = false
 date = "2016-12-21T09:52:09+08:00"
-keywords = ["docker"]
-tags = ["docker"]
-topics = ["docker"]
+keywords = ["Opencv"，"Ubuntu"]
+tags = ["Opencv"，"Ubuntu"]
+topics = ["Opencv"，"Ubuntu"]
 description = "这篇文章详细介绍了安装过程，并记录了一些小问题的解决办法。"
 author = "ten2net"
 type = "post"

@@ -79,9 +79,6 @@ docker-machine create --virtualbox-no-vtx-check --engine-registry-mirror=https:/
 ```
 
 - Open your browser to http://<your Host IP>:9000
-==============================================================================================
-
-
 
 # 6 Docker Run 命令的常用选项说明
 

@@ -177,11 +177,11 @@ plt.show()
     
 
 
-![png](index-readme_files/index-readme_4_1.png)
+![png](/post/index-readme_files/index-readme_4_1.png)
 
 
 
-![png](index-readme_files/index-readme_4_2.png)
+![png](/post/index-readme_files/index-readme_4_2.png)
 
 
 # 使用正则化和Dropout
@@ -270,11 +270,11 @@ plt.show()
     
 
 
-![png](index-readme_files/index-readme_6_1.png)
+![png](/post/index-readme_files/index-readme_6_1.png)
 
 
 
-![png](index-readme_files/index-readme_6_2.png)
+![png](/post/index-readme_files/index-readme_6_2.png)
 
 
 # 使用SGD优化器
@@ -365,11 +365,11 @@ plt.show()
     
 
 
-![png](index-readme_files/index-readme_8_1.png)
+![png](/post/index-readme_files/index-readme_8_1.png)
 
 
 
-![png](index-readme_files/index-readme_8_2.png)
+![png](/post/index-readme_files/index-readme_8_2.png)
 
 
 
@@ -484,11 +484,11 @@ plt.show()
     
 
 
-![png](index-readme_files/index-readme_9_1.png)
+![png](/post/index-readme_files/index-readme_9_1.png)
 
 
 
-![png](index-readme_files/index-readme_9_2.png)
+![png](/post/index-readme_files/index-readme_9_2.png)
 
 
 

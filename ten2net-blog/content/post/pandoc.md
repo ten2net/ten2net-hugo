@@ -5,7 +5,7 @@ author = "wangf"
 type = "post"
 date = "2016-12-22T12:59:30+08:00"
 title = "使用Pandoc工具转换ms word文件为Markdown格式"
-topics = [""Pandoc","格式转换""]
+topics = ["Pandoc","格式转换"]
 keywords = ["Pandoc","格式转换"]
 draft = false
 

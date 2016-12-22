@@ -1,13 +1,13 @@
 +++
 date = "2016-12-21T17:45:00+08:00"
 tags = ["digits","caffe"]
-author = "author"
+author = "wangf"
 draft = false
 type = "post"
 title = "使用digits进行finetune"
-topics = ["topic 1"]
-keywords = ["key","words"]
-description = "description"
+topics = ["调优"]
+keywords = ["digits","finetune"]
+description = "这篇文章主要介绍了如何在Digits上对网络进行微调。感谢同事yushan提供了原始译稿。"
 
 +++
 

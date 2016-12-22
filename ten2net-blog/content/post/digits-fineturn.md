@@ -26,13 +26,13 @@ description = "description"
 
 > 下面图片格式选为jpg, 为dataset取一个名字，就开始转换吧。结果如图：
 
-![](/post/images/digits/image002.png)
+![](/post/images/digits/image003.png)
 
 # 三、设置model
 
 > 回到digits根目录，新建一个classification model， 选中你的dataset, 开始设置最重要的network.
 
-![](/post/images/digits/image003.png)
+![](/post/images/digits/image005.png)
 
 - caffenet的网络配置文件，放在 caffe/models/bvlc_reference_caffenet/ 这个文件夹里面，名字叫train_val.prototxt。打开这个文件，将里面的内容复制到上图的Custom Network文本框里，然后进行修改，主要修改这几个地方：
 
@@ -110,8 +110,9 @@ layer {
 * 训练结果就是一个新的model，可以用来单张图片和多张图片测试。在此，将别人训练好的model用到我们自己的图片分类上，整个微调过程就是这样了。如果你不用digits，而直接用命令操作，那就更简单，只需要修改一个train_val.prototxt的配置文件就可以了，其它都是一样的操作。
 - 【注意】新版digits的网络结构是针对所有网络的，即包括的训练的网络结构，测试的网络结构和验证的网络结构，即在一个.prototxt 中包含了train/val/deploy 所有的结构。
 
-> 如果使用新版digits，除了上面数据层和最后一个全连接层的改动外，还有以下3处：
->> （1）修改accuracy层，删除原来phase: TEST修改为stage: "val"，下图的-表示删除，+表示增加，后面的均是这样表示。
+-- 如果使用新版digits，除了上面数据层和最后一个全连接层的改动外，还有以下3处：
+
+### （1）修改accuracy层，删除原来phase: TEST修改为stage: "val"，下图的-表示删除，+表示增加，后面的均是这样表示。
 
 ```json
 layer {
@@ -126,7 +127,7 @@ name: "accuracy"
     include { stage: "val" }
 }
 ```
->> （2）修改loss层，增加exclude { stage: "deploy" }，表示loss只在训练和验证中计算，测试时不计算。
+### （2）修改loss层，增加exclude { stage: "deploy" }，表示loss只在训练和验证中计算，测试时不计算。
 
 ```json
 layer {
@@ -139,7 +140,7 @@ layer {
 }
 ```
 
->> （3）增加softmax层，该层不在训练和验证中计算，只在测试时计算。
+### （3）增加softmax层，该层不在训练和验证中计算，只在测试时计算。
 
 ```json
  layer {
